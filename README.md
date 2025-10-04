@@ -17,7 +17,7 @@ This folder (`/prototype`) contains the **source code and main components** of t
 
 ### 🧩 Purpose
 
-The `/prototype` folder contains the **functional part of AtmosInsight**, including the code used to visualize satellite data and generate AI-based narrations about environmental phenomena.  
+The `/prototype` folder contains the **functional part of AtmosInsight**, including the code used to visualize satellite data and generate AI-based narrations about environmental phenomena.
 It represents the **core of the project**, connecting NASA’s open APIs with a user-friendly and educational interface.
 
 ---
@@ -39,5 +39,5 @@ Esta carpeta (`/prototype`) contiene el **código fuente y los componentes princ
 
 ### 🧩 Propósito
 
-La carpeta `/prototype` contiene la **parte funcional de AtmosInsight**, incluyendo el código utilizado para visualizar datos satelitales y generar narraciones con inteligencia artificial sobre fenómenos ambientales.  
+La carpeta `/prototype` contiene la **parte funcional de AtmosInsight**, incluyendo el código utilizado para visualizar datos satelitales y generar narraciones con inteligencia artificial sobre fenómenos ambientales.
 Representa el **núcleo del proyecto**, conectando las API abiertas de la NASA con una interfaz educativa y accesible para todo público.
