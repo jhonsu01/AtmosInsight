@@ -1,4 +1,5 @@
 # AtmosInsight
+
 : Visualizando la Tierra, Escuchando el Clima Omnicron Animate – NASA Space Apps Challenge 2025
 1. Una historia que nace del espacio:
 Desde hace más de medio siglo, la NASA observa nuestro planeta como nunca antes se había hecho: desde el espacio, con miles de ojos tecnológicos que orbitan y registran cada cambio en su atmósfera, su suelo, su vegetación y sus océanos.
