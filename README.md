@@ -1,8 +1,5 @@
 # 🌍 **AtmosInsight: Visualizando la Tierra, Escuchando el Clima**
-
 **Omnicron Animate – NASA Space Apps Challenge 2025**
-
----
 
 ## 1. Una historia nacida desde el espacio
 
@@ -12,8 +9,6 @@ Sin embargo, mientras los satélites capturan terabytes de datos cada día, gran
 
 De esa necesidad nace **AtmosInsight** — una herramienta que traduce la ciencia satelital en historias humanas, combinando visualización interactiva con narración accesible.
 Su propósito es simple: ayudar a cualquier persona, sin importar su formación técnica, a entender lo que los satélites ven y *escuchar* lo que la Tierra intenta decirnos.
-
----
 
 ## 2. El desafío
 
@@ -25,8 +20,6 @@ La mayoría de los portales científicos presentan datos en bruto — mapas, ín
 Pero detrás de cada píxel hay una historia: una sequía que avanza, un bosque que respira menos o una nube de dióxido de azufre que revela un volcán despertando.
 
 **AtmosInsight** propone una nueva forma de contar historias ambientales, uniendo visualización espacial, narración digital e inteligencia artificial.
-
----
 
 ## 3. Nuestra solución:
 
@@ -49,8 +42,6 @@ El usuario puede:
 
 Así, la experiencia no solo muestra datos: **cuenta historias sobre cómo la Tierra respira, cambia y se adapta**.
 
----
-
 ## 4. Arquitectura y flujo técnico
 
 | **Capa**                        | **Descripción**                                                                                                                                            |
@@ -59,8 +50,6 @@ Así, la experiencia no solo muestra datos: **cuenta historias sobre cómo la Ti
 | **2. Visualización**            | Construida con **React + Leaflet + TailwindCSS + Framer Motion** para mapas interactivos e interfaz de usuario.                                            |
 | **3. Narrativa**                | Módulo de Texto a Voz (TTS) impulsado por **Google Cloud TTS** o **Notebook LM**, que convierte explicaciones automáticas en audio estilo podcast.         |
 | **4. Integración / Despliegue** | Desplegado en **GitHub Pages** o **Vercel**. Código abierto (Licencia MIT) y accesible públicamente para evaluación de la NASA.                            |
-
----
 
 ## 5. Conjuntos de datos utilizados (NASA Datasets)
 
@@ -73,8 +62,6 @@ Así, la experiencia no solo muestra datos: **cuenta historias sobre cómo la Ti
 | TROPOMI SO₂ Column               | Columna vertical total de dióxido de azufre.    | ESA/Copernicus (NASA EOSDIS) | Químico    | Diario         |
 | MERRA-2 Air Temperature          | Temperatura atmosférica a 2 m.                  | NASA GMAO                    | Reanálisis | Mensual        |
 
----
-
 ## 6. Metodología
 
 **Enfoque:** Exploratorio–aplicado, con énfasis en accesibilidad y divulgación científica.
@@ -86,8 +73,6 @@ Así, la experiencia no solo muestra datos: **cuenta historias sobre cómo la Ti
 * **Analítico:** Comparación temporal de capas y detección de anomalías.
 * **Educativo:** Traducción de datos técnicos en contenido comprensible y atractivo mediante IA.
 
----
-
 ## 7. Impacto
 
 | **Dimensión**   | **Contribución**                                                          |
@@ -98,20 +83,11 @@ Así, la experiencia no solo muestra datos: **cuenta historias sobre cómo la Ti
 | **Tecnológica** | Demuestra una arquitectura reproducible basada en APIs abiertas.          |
 | **Cultural**    | Humaniza la ciencia espacial mediante historias interactivas y auditivas. |
 
----
-
 ### 🌐 Atribución
 
 Imágenes cortesía de NASA EOSDIS GIBS, JPL, NOAA y ESA/Copernicus.
-
----
 
 ## 🚀 Cómo contribuir
 
 Este proyecto es de código abierto y da la bienvenida a desarrolladores, diseñadores y comunicadores científicos.
 Haz un **fork** del repositorio, crea una rama de trabajo (*feature branch*) y abre un **pull request**.
-
----
-
-¿Quieres que te agregue al final una **sección técnica con comandos para instalación y ejecución** (npm install, npm start, etc.) en español, para dejarlo como guía completa de despliegue en GitHub?
-Puedo incluirla como “Instrucciones de instalación y prueba del prototipo”.
