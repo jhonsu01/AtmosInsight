@@ -39,43 +39,43 @@ https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/{LAYER}/default/{DATE}/Google
 Estas capas son 100% NASA o partners (NOAA, ESA, JPL), asegurando elegibilidad para el Space Apps Challenge.
 
 Capa 2 – Visualización
-•	Frontend: React + Leaflet + TailwindCSS + Framer Motion
-•	Mapa interactivo centrado en la región del usuario (ej. América Latina)
-•	Controles de fecha, capa y zoom
-•	Panel de información con fuente, agencia, tipo de dato y fecha
+  o	Frontend: React + Leaflet + TailwindCSS + Framer Motion.
+  o	Mapa interactivo centrado en la región del usuario (ej. América Latina).
+  o	Controles de fecha, capa y zoom.ç
+  o	Panel de información con fuente, agencia, tipo de dato y fecha.
 
 Capa 3 – Narrativa
-•	Módulo de texto a voz (TTS) usando OpenAI TTS o Notebook LM
-•	Narraciones cortas que traducen la información técnica a lenguaje divulgativo
-•	Posibilidad de generar clips de audio para redes o educación ambiental
+  o	Módulo de texto a voz (TTS) usando OpenAI TTS o Notebook LM.
+  o	Narraciones cortas que traducen la información técnica a lenguaje divulgativo.
+  o	Posibilidad de generar clips de audio para redes o educación ambiental.
 
 Capa 4 – Hosting / Integración
-•	Publicación en GitHub Pages o Vercel.
-•	Código abierto (licencia MIT).
-•	Enlace público para evaluación NASA.
+  o	Publicación en GitHub Pages o Vercel.
+  o	Código abierto (licencia MIT).
+  o	Enlace público para evaluación NASA.
 
 5. Datos NASA utilizados:
-Dataset	Descripción	Agencia	Tipo	Frecuencia
-MODIS Terra True Color	Imagen visible RGB diaria de la superficie terrestre.	NASA EOSDIS	Óptico	Diario
-VIIRS NOAA-20 NDVI (8 días)	Índice de vegetación normalizado.	NASA/NOAA	Biofísico	8 días
-SMAP Soil Moisture L3	Humedad del suelo (36 km).	NASA JPL	Microondas	Diario
-OPERA Surface Water Extent (HLS)	Extensión dinámica del agua superficial.	NASA JPL	Radar	Diario
-TROPOMI SO₂ Column	Dióxido de azufre total vertical.	ESA/Copernicus (NASA EOSDIS)	Químico	Diario
-MERRA-2 Air Temperature	Temperatura atmosférica a 2 m.	NASA GMAO	Reanálisis	Mensual
+  o	Dataset	Descripción	Agencia	Tipo	Frecuencia.
+  o	MODIS Terra True Color	Imagen visible RGB diaria de la superficie terrestre.	NASA EOSDIS	Óptico	Diario.
+  o	VIIRS NOAA-20 NDVI (8 días)	Índice de vegetación normalizado.	NASA/NOAA	Biofísico	8 días.
+  o	SMAP Soil Moisture L3	Humedad del suelo (36 km).	NASA JPL	Microondas	Diario.
+  o	OPERA Surface Water Extent (HLS)	Extensión dinámica del agua superficial.	NASA JPL	Radar	Diario.
+  o	TROPOMI SO₂ Column	Dióxido de azufre total vertical.	ESA/Copernicus (NASA EOSDIS)	Químico	Diario.
+  o	MERRA-2 Air Temperature	Temperatura atmosférica a 2 m.	NASA GMAO	Reanálisis	Mensual.
 
-6. Metodología
+7. Metodología
 Enfoque: Exploratorio-aplicado, con énfasis en accesibilidad y divulgación científica.
 Diseño: Prototipo funcional web basado en datos reales, integrando narración automatizada.
 
 Método:
-•	Descriptivo: interpretación visual y narrativa de tendencias ambientales.
-•	Analítico: comparación temporal de capas y detección de anomalías.
-•	Divulgativo: traducción científica mediante IA para audio educativo.
+  o	Descriptivo: interpretación visual y narrativa de tendencias ambientales.
+  o	Analítico: comparación temporal de capas y detección de anomalías.
+  o	Divulgativo: traducción científica mediante IA para audio educativo.
 
 7. Impacto
-Dimensión	Aporte
-Científica	Difunde conocimiento ambiental con base en datos satelitales reales.
-Educativa	Crea contenido comprensible para escuelas, comunidades y medios.
-Social	Democratiza el acceso a la ciencia y fomenta conciencia climática.
-Tecnológica	Muestra una arquitectura cloud reproducible con APIs abiertas.
-Cultural	Humaniza la ciencia espacial mediante narrativa sonora e interactiva.
+Dimensión	y aporte_
+  o	Científica: Difunde conocimiento ambiental con base en datos satelitales reales.
+  o	Educativa: Crea contenido comprensible para escuelas, comunidades y medios.
+  o	Social: Democratiza el acceso a la ciencia y fomenta conciencia climática.
+  o	Tecnológica: Muestra una arquitectura cloud reproducible con APIs abiertas.
+  o	Cultural: Humaniza la ciencia espacial mediante narrativa sonora e interactiva.
