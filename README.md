@@ -73,7 +73,7 @@ Método:
   o	Divulgativo: traducción científica mediante IA para audio educativo.
 
 7. Impacto
-Dimensión	y aporte_
+Dimensión	y aporte:
   o	Científica: Difunde conocimiento ambiental con base en datos satelitales reales.
   o	Educativa: Crea contenido comprensible para escuelas, comunidades y medios.
   o	Social: Democratiza el acceso a la ciencia y fomenta conciencia climática.
