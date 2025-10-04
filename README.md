@@ -41,4 +41,3 @@ Esta carpeta (`/docs`) contiene todos los **documentos de soporte y referencias 
 
 ### 🧭 Propósito
 La carpeta `docs` funciona como la **base de conocimiento del proyecto**, documentando los aspectos conceptuales, técnicos y organizativos que sustentan el prototipo y la presentación final.
-```
