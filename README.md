@@ -44,12 +44,12 @@ Así, la experiencia no solo muestra datos: **cuenta historias sobre cómo la Ti
 
 ## 4. Arquitectura y flujo técnico
 
-| **Capa**                          | **Descripción**                                                                                                                                          |
-| --------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **1. Datos Satelitales NASA**     | Consumo directo desde GIBS (WMTS): https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/{LAYER}/default/{DATE}/GoogleMapsCompatible_Level9/{z}/{y}/{x}.png |
-| **2. Visualización**              | Construida con **React + Leaflet + TailwindCSS + Framer Motion** para mapas interactivos e interfaz de usuario.                                          |
-| **3. Narrativa**                  | Módulo de Texto a Voz (TTS) impulsado por **Google Cloud TTS** o **Notebook LM**, que convierte explicaciones automáticas en audio estilo podcast.       |
-| **4. Integración / Despliegue**   | Desplegado en **GitHub Pages** o **Vercel**. Código abierto (Licencia MIT) y accesible públicamente para evaluación de la NASA.                          |
+| **Capa**                   | **Descripción**                                                                                                                                          |
+| -------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Datos Satelitales NASA** | Consumo directo desde GIBS (WMTS): https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/{LAYER}/default/{DATE}/GoogleMapsCompatible_Level9/{z}/{y}/{x}.png |
+| **Visualización**          | Construida con **React + Leaflet + TailwindCSS + Framer Motion** para mapas interactivos e interfaz de usuario.                                          |
+| **Narrativa**              | Módulo de Texto a Voz (TTS) impulsado por **Google Cloud TTS** o **Notebook LM**, que convierte explicaciones automáticas en audio estilo podcast.       |
+| **Integración/Despliegue** | Desplegado en **GitHub Pages** o **Vercel**. Código abierto (Licencia MIT) y accesible públicamente para evaluación de la NASA.                          |
 
 ## 5. Conjuntos de datos utilizados (NASA Datasets)
 
