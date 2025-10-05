@@ -9,7 +9,7 @@ This folder (`/docs`) contains all the **supporting documents and technical refe
 | File | Description |
 |------|--------------|
 | **FunctionalRequirements.md** | Lists the general objective, scope, functional and non-functional requirements, constraints, and success criteria of the project. |
-| **Propuesta-AtmosInsight.docx** | Original Spanish proposal document that inspired the final README version. |
+| **AtmosInsight-Proposal-EN** | Original Spanish proposal document that inspired the final README version. |
 
 ### 🧭 Purpose
 The `docs` folder serves as the **knowledge base** for the project, documenting the conceptual, technical, and organizational aspects that support the prototype and final presentation.
@@ -25,7 +25,7 @@ Esta carpeta (`/docs`) contiene todos los **documentos de soporte y referencias 
 | Archivo | Descripción |
 |----------|--------------|
 | **FunctionalRequirements.md** | Incluye el objetivo general, alcance, requerimientos funcionales y no funcionales, restricciones y criterios de éxito del proyecto. |
-| **Propuesta-AtmosInsight.docx** | Documento original en español que inspiró la versión final del README. |
+| **Propuesta-AtmosInsight-ES** | Documento original en español que inspiró la versión final del README. |
 
 ### 🧭 Propósito
 La carpeta `docs` funciona como la **base de conocimiento del proyecto**, documentando los aspectos conceptuales, técnicos y organizativos que sustentan el prototipo y la presentación final.
