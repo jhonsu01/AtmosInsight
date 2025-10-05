@@ -22,21 +22,12 @@ Demostrar cómo los datos satelitales abiertos pueden convertirse en mapas inter
 | RF-09 | Fallback de TTS | Usar SpeechSynthesis del navegador cuando la API TTS no esté disponible. |
 | RF-10 | Persistencia de Configuración | Guardar las últimas preferencias del usuario localmente en el navegador. |
 
-## 4. Requerimientos No Funcionales
-| ID | Requerimiento | Descripción |
-|----|----------------|-------------|
-| RNF-01 | Acceso Público a Datos | Usar únicamente endpoints públicos/anónimos de NASA GIBS. |
-| RNF-02 | Rendimiento | El mapa base debe cargar en menos de 3 segundos en redes 3G rápidas. |
-| RNF-03 | Accesibilidad | Cumplir con WCAG 2.1 AA: visibilidad del foco, contraste y etiquetas ARIA. |
-| RNF-04 | Resiliencia | Manejar errores de red/API de forma tolerante mediante reintentos y fallbacks. |
-| RNF-05 | Simplicidad de Despliegue | Operar como frontend estático con backend opcional en Node/Next. |
-
-## 5. Restricciones
+## 4. Restricciones
 - No incluir llaves privadas ni credenciales en el repositorio.  
 - Resolución de mosaicos limitada a EPSG:3857 Nivel 9 (demo).  
 - Algunos datasets (NRT/STD) presentan retrasos o límites históricos inherentes.
 
-## 6. Criterios de Éxito
+## 5. Criterios de Éxito
 - El jurado puede cambiar entre capas y fechas con renderizado válido del mapa.  
 - La narración funciona en ambos modos (SpeechSynthesis o TTS real).  
 - La configuración y uso están claramente documentados en el README.  
