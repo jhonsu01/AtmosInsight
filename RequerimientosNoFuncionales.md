@@ -9,7 +9,7 @@ AtmosInsight es una aplicación web diseñada para visualizar datos satelitales 
 ## 3. Requerimientos No Funcionales
 
 | ID | Categoría | Requerimiento | Descripción |
-|----|------------|----------------|-------------|
+|------|------------|----------------|-------------|
 | RNF-01 | Rendimiento | Tiempo de Respuesta | El mapa base y la interfaz deben cargar en menos de 3 segundos en redes 3G rápidas. |
 | RNF-02 | Escalabilidad | Despliegue Modular | El prototipo debe soportar modos de operación autónomo y conectado a una API. |
 | RNF-03 | Disponibilidad | Tiempo de Servicio | El frontend debe mantener al menos 99% de disponibilidad durante las demostraciones. |
