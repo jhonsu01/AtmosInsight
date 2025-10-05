@@ -1,9 +1,5 @@
-
 # AtmosInsight – Prototype Walkthrough & Code Overview
-
 This guide explains how to **run the prototype**, what you should see when it’s running, and documents the **key source files** with annotated snippets.
-
----
 
 ## 1) How to run (local demo)
 
@@ -32,8 +28,6 @@ This guide explains how to **run the prototype**, what you should see when it’
 - A side panel showing the selected layer, the tiles URL in use, and a “Narration” section with audio controls.  
 - When you click **Generate Narration**, the app builds a short explainer about the selected layer/date, calls **Google Cloud TTS**, and plays a **podcast‑style MP3** in the page.
 
----
-
 ## 2) File map
 
 ```
@@ -45,8 +39,6 @@ AtmosInsight-MVP/
 ├─ package.json     # Node project settings and start script
 └─ README.md        # Run instructions (also reproduced here)
 ```
-
----
 
 ## 3) Frontend (index.html)
 
@@ -81,15 +73,11 @@ Key elements:
 - Provides inputs for **layer** and **date**, a **Generate Narration** button, and **voice** selector.  
 - Displays **Leaflet map** and an **information panel** with the live WMTS URL and narration audio player.
 
----
-
 ## 4) Styling (styles.css)
 
 **Purpose:** Clean, readable layout with a simple two‑column view (map + side panel).
 - Sticky header, responsive grid, code block styling.
 - The `.narration` class highlights the explanation text in a soft panel.
-
----
 
 ## 5) Map & GIBS logic (app.js)
 
@@ -205,8 +193,6 @@ app.post("/narrate", async (req, res) => {
 - Implements **/narrate**, which receives `{ text, voice }`, calls Google TTS, and returns `{ audioContent }` (Base64 MP3).  
 - Picks a **sensible languageCode** based on the voice (English/Spanish).
 
----
-
 ## 7) Voices (English & Spanish)
 
 The **voice selector** supports:
@@ -216,8 +202,6 @@ The **voice selector** supports:
 - `es-CO-Neural2-A` (Spanish Colombia)
 
 You can add more Google voices by inserting new `<option>` values that match the names available in your GCP project/region.
-
----
 
 ## 8) Where to adjust layers
 
@@ -230,15 +214,11 @@ Use NASA GIBS layer identifiers such as:
 - `OPERA_L3_Dynamic_Surface_Water_Extent-HLS`
 - `TROPOMI_L2_Sulfur_Dioxide_Total_Vertical_Column_Daily`
 
----
-
 ## 9) Common pitfalls
 
 - **No audio plays**: Check credentials, API enabled, billing, and console logs.  
 - **Tiles not loading**: Verify **layer name** and that the **date** exists for that product (some are 8‑day/16‑day composites).  
 - **CORS errors** (if serving files separately): use the included Express server which serves both frontend and backend together.
-
----
 
 ## 10) What to demo (talk track)
 
@@ -246,8 +226,4 @@ Use NASA GIBS layer identifiers such as:
 2) Show the **Tiles URL** updating and the map rendering.  
 3) Click **Generate Narration** → a short explainer appears; press **Play** (auto‑plays if allowed).  
 4) Switch to **VIIRS NDVI 8‑day** and repeat → showcase different cadence and insight.  
-5) Change **Voice** to `es-CO-Neural2-A` → generate una narración en español tipo podcast.
-
----
-
-**That’s it!** You now have a clean, reproducible prototype that meets the hackathon’s requirements: **NASA/partner data** via **GIBS**, and a **Google TTS** narration that turns science into an accessible story.
+5) Change **Voice** to `es-CO-Neural2-A` → generate una narración en español tipo podcast.* You now have a clean, reproducible prototype that meets the hackathon’s requirements: **NASA/partner data** via **GIBS**, and a **Google TTS** narration that turns science into an accessible story.
