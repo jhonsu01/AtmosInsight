@@ -9,6 +9,7 @@ This folder (`/docs`) contains all the **supporting documents and technical refe
 | File | Description |
 |------|--------------|
 | **FunctionalRequirements.md** | Lists the general objective, scope, functional and non-functional requirements, constraints, and success criteria of the project. |
+| **NonFunctionalRequirements.md** | Defines the system’s quality attributes, technical constraints, and operational expectations, ensuring performance, accessibility, scalability, and reliability of the AtmosInsight prototype. |
 | **AtmosInsight-Proposal-EN** | Original Spanish proposal document that inspired the final README version. |
 
 ### 🧭 Purpose
@@ -24,7 +25,8 @@ Esta carpeta (`/docs`) contiene todos los **documentos de soporte y referencias 
 
 | Archivo | Descripción |
 |----------|--------------|
-| **FunctionalRequirements.md** | Incluye el objetivo general, alcance, requerimientos funcionales y no funcionales, restricciones y criterios de éxito del proyecto. |
+| **RequiremientosFuncionales.md** | Incluye el objetivo general, alcance, requerimientos funcionales y no funcionales, restricciones y criterios de éxito del proyecto. |
+| **RequerimientosNoFuncionales.md** | Define los atributos de calidad del sistema, las restricciones técnicas y las expectativas operativas, garantizando el rendimiento, la accesibilidad, la escalabilidad y la confiabilidad del prototipo AtmosInsight. |
 | **Propuesta-AtmosInsight-ES** | Documento original en español que inspiró la versión final del README. |
 
 ### 🧭 Propósito
