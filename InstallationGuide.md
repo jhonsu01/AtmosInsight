@@ -1,12 +1,8 @@
-
 # 🧭 AtmosInsight Prototype – Installation and Configuration Guide
-
 ## 🇬🇧 English
 
 ### 🔧 Objective
 This prototype demonstrates how **open satellite data** can be transformed into **interactive maps and narrated experiences**, combining NASA’s GIBS visualization layers with AI-generated audio using Google Cloud Text-to-Speech.
-
----
 
 ### 🧩 1. Prerequisites
 Before starting the installation, make sure you have:
@@ -16,8 +12,6 @@ Before starting the installation, make sure you have:
 - A **Google Cloud account** with the **Text-to-Speech API** enabled  
   [Enable the API](https://cloud.google.com/text-to-speech/docs/before-you-begin)  
 - A **service account key (JSON)** with `Text-to-Speech API User` permissions.  
-
----
 
 ### ⚙️ 2. Installation Steps
 
@@ -36,8 +30,6 @@ This will install:
 - **express** → web server  
 - **cors** → cross-origin access  
 - **@google-cloud/text-to-speech** → Google TTS client  
-
----
 
 ### 🧠 3. Environment Configuration
 
@@ -82,8 +74,6 @@ You will see the **interactive map interface**, with controls for:
 - Satellite layer selection (MODIS, VIIRS, SMAP, TROPOMI, OPERA)  
 - “Generate Narration” button to listen to AI-generated podcast narration  
 
----
-
 ### 🛰️ 5. Functional Verification
 
 To confirm correct setup:
@@ -97,8 +87,6 @@ If no audio plays:
 - Verify your Google Cloud project’s TTS quota.  
 - Ensure NASA GIBS endpoints are reachable.
 
----
-
 ### 📁 6. Project Structure
 
 ```
@@ -111,8 +99,6 @@ prototype/
 └── service-account.json (not committed)
 ```
 
----
-
 ### ✅ 7. Completion Criteria
 
 AtmosInsight is successfully configured when:
@@ -120,14 +106,10 @@ AtmosInsight is successfully configured when:
 - The **narration** button generates and plays an AI audio clip.  
 - No authentication or CORS errors appear in the console.  
 
----
-
 ## 🇪🇸 Español
 
 ### 🔧 Objetivo
 Este prototipo demuestra cómo los **datos satelitales abiertos** pueden transformarse en **mapas interactivos y experiencias narradas**, combinando las capas de visualización de **NASA GIBS** con narraciones de voz generadas por IA mediante **Google Cloud Text-to-Speech**.
-
----
 
 ### 🧩 1. Requisitos previos
 Antes de iniciar la instalación, asegúrate de tener:
@@ -137,8 +119,6 @@ Antes de iniciar la instalación, asegúrate de tener:
 - Una **cuenta en Google Cloud** con la **API de Text-to-Speech habilitada**  
   [Guía: Activar API](https://cloud.google.com/text-to-speech/docs/before-you-begin)  
 - Una **clave de cuenta de servicio (JSON)** con permisos de `Text-to-Speech API User`.
-
----
 
 ### ⚙️ 2. Pasos de instalación
 
@@ -158,8 +138,6 @@ Esto instalará:
 - **cors** → acceso entre orígenes  
 - **@google-cloud/text-to-speech** → cliente de TTS de Google  
 
----
-
 ### 🧠 3. Configuración del entorno
 
 #### Paso 3 — Agregar credenciales de Google Cloud
@@ -177,8 +155,6 @@ export GOOGLE_APPLICATION_CREDENTIALS=./service-account.json
 > ```powershell
 > setx GOOGLE_APPLICATION_CREDENTIALS ".\service-account.json"
 > ```
-
----
 
 ### 🚀 4. Ejecución del prototipo
 
@@ -203,8 +179,6 @@ Aparecerá la **interfaz del mapa interactivo**, con controles para:
 - Selección de capa satelital (MODIS, VIIRS, SMAP, TROPOMI, OPERA)  
 - Botón **“Generate Narration / Podcast de la Tierra”** para escuchar la narración generada por IA.
 
----
-
 ### 🛰️ 5. Verificación funcional
 
 Para comprobar la instalación:
@@ -218,8 +192,6 @@ Si no hay audio:
 - Confirma el uso de la API TTS en Google Cloud.  
 - Asegura la conexión con los endpoints de NASA GIBS.
 
----
-
 ### 📁 6. Estructura del proyecto
 
 ```
@@ -231,8 +203,6 @@ prototype/
 ├── package.json      # Dependencias
 └── service-account.json (no se sube al repositorio)
 ```
-
----
 
 ### ✅ 7. Criterios de finalización
 
