@@ -4,7 +4,7 @@
   "private": true,
   "description": "NASA GIBS viewer + Google Cloud TTS podcast narration",
   "scripts": {
-    "start": "node server.js"
+    "start": "server.js"
   },
   "dependencies": {
     "express": "^4.19.2",
