@@ -32,12 +32,12 @@ This guide explains how to **run the prototype**, what you should see when it’
 
 ```
 AtmosInsight-MVP/
-├─ index.html       # Static UI skeleton (header, controls, map container, side panel, audio player)
-├─ styles.css       # Minimal, clean styling
-├─ app.js           # Core logic: Leaflet viewer + GIBS tiles + narration request
-├─ server.js        # Express server + Google Cloud TTS endpoint (/narrate) + static hosting
-├─ package.json     # Node project settings and start script
-└─ README.md        # Run instructions (also reproduced here)
+├─ index.html                  # Static UI skeleton (header, controls, map container, side panel, audio player)
+├─ styles.css                  # Minimal, clean styling
+├─ app.js                      # Core logic: Leaflet viewer + GIBS tiles + narration request
+├─ server.js                   # Express server + Google Cloud TTS endpoint (/narrate) + static hosting
+├─ package.json                # Node project settings and start script
+└─ InstallationGuide.md        # Run instructions (also reproduced here)
 ```
 
 ## 3) Frontend (index.html)
