@@ -89,6 +89,14 @@ Así, la experiencia no solo muestra datos: **cuenta historias sobre cómo la Ti
 
 Imágenes cortesía de NASA EOSDIS GIBS, JPL, NOAA y ESA/Copernicus.
 
+### 🌏 Trailer
+
+https://www.youtube.com/watch?v=omCnpyvy9Dw
+
+### 🌐 Demo video
+
+https://www.youtube.com/watch?v=o28-XjDuZrQ
+
 ## 🚀 Cómo contribuir
 
 Este proyecto es de código abierto y da la bienvenida a desarrolladores, diseñadores y comunicadores científicos.
