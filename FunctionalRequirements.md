@@ -22,21 +22,12 @@ Show how open satellite data can be transformed into interactive maps and narrat
 | FR-09 | TTS Fallback | Use browser SpeechSynthesis when TTS API is unavailable. |
 | FR-10 | Settings Persistence | Store last user settings locally in the browser. |
 
-## 4. Non-Functional Requirements
-| ID | Requirement | Description |
-|----|--------------|-------------|
-| NFR-01 | Public Data Access | Use only public/anonymous NASA GIBS endpoints. |
-| NFR-02 | Performance | Base map should load in under 3 seconds on 3G-fast networks. |
-| NFR-03 | Accessibility | Conform to WCAG 2.1 AA: focus visibility, contrast, ARIA labels. |
-| NFR-04 | Resilience | Handle API/network errors gracefully with retries and fallbacks. |
-| NFR-05 | Deployment Simplicity | Operate as a static frontend with optional Node/Next backend. |
-
-## 5. Constraints
+## 4. Constraints
 - No private API keys or credentials in the repository.  
 - Tile resolution limited to EPSG:3857 Level 9 for demo purposes.  
 - Certain datasets (NRT/STD) have inherent update delays or historical limits.
 
-## 6. Success Criteria
+## 5. Success Criteria
 - Jury can switch between layers and dates with valid map rendering.  
 - Narration works in both modes (mock SpeechSynthesis or real TTS).  
 - Setup and usage instructions are clearly documented in README.  
